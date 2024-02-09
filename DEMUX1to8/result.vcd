@@ -1,0 +1,44 @@
+$date
+  Fri Feb  9 18:41:02 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module demux1to8_tb $end
+$var reg 1 ! inputval_tb $end
+$var reg 3 " selarr_tb[2:0] $end
+$var reg 8 # outputarr_tb[7:0] $end
+$scope module demux_instance $end
+$var reg 1 $ inputval $end
+$var reg 3 % selarr[2:0] $end
+$var reg 8 & outputarr[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+b001 "
+b01000000 #
+1$
+b001 %
+b01000000 &
+#10000000
+b111 "
+b00000001 #
+b111 %
+b00000001 &
+#20000000
+0!
+b00000000 #
+0$
+b00000000 &
+#30000000
