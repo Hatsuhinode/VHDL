@@ -1,0 +1,55 @@
+$date
+  Fri Feb  9 18:09:03 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module mux2to1_tb $end
+$var reg 1 ! input0_tb $end
+$var reg 1 " input1_tb $end
+$var reg 1 # sel_tb $end
+$var reg 1 $ outputval_tb $end
+$scope module mux_instance $end
+$var reg 1 % input0 $end
+$var reg 1 & input1 $end
+$var reg 1 ' sel $end
+$var reg 1 ( outputval $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+0$
+0%
+1&
+0'
+0(
+#5000000
+1#
+1$
+1'
+1(
+#10000000
+1!
+0"
+0#
+1%
+0&
+0'
+#15000000
+1#
+0$
+1'
+0(
+#20000000
