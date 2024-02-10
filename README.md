@@ -1,22 +1,26 @@
 <div align = 'Center'>
 <h1> VHDL </h1>
 </div>
-This is the repo for working in VHDL as a project/lab of subject Embedded System (III/II). Before diving deeper, I want you to go through this documentation and get the gist of the lab. 
+<div align = 'justify'>
+This is the repo for working in VHDL as a project/lab of subject Embedded System (III/II). Before diving deeper, I want you to go through this documentation and get the gist of the lab. </div>
 
 <div align = 'Center'>
 <b> HAPPY LEARNING!!! </b>
 </div>
 
 ## Introduction
+<div align = 'justify'>
 VHDL stands for VHSIC (Very High-Speed Integrated Circuit) Hardware Description Language. It is a hardware description language used in digital circuit design and simulation. VHDL serves as a means to describe the structure and behavior of digital systems. It allows engineers to model complex digital circuits, specify their functionality, and simulate their behavior before actual implementation in hardware.
 
-To set up a VHDL development environment, you will need to install a VHDL simulator and a text editor or integrated development environment (IDE) that supports VHDL. `ghdl` is an open-source VHDL compiler that can compile VHDL code and run simulations. `gtkwave` is a waveform viewer for viewing the output of simulations. It integrates with GHDL and other VHDL tools. Before compiling we create a `Makefile` for the code as it specifies targets, dependencies, and commands needed to build each target. In other words, `Makefile` contains instructions on how to compile and link the project's source code files. It is read by the tool named `make`. `make` is a build automation tool used primarily for compiling and building software projects. It automates the process of determining which source files need to be recompiled and relinked, based on changes in the source code or dependencies.
+To set up a VHDL development environment, you will need to install a VHDL simulator and a text editor or integrated development environment (IDE) that supports VHDL. `ghdl` is an open-source VHDL compiler that can compile VHDL code and run simulations. `gtkwave` is a waveform viewer for viewing the output of simulations. It integrates with GHDL and other VHDL tools. Before compiling we create a `Makefile` for the code as it specifies targets, dependencies, and commands needed to build each target. In other words, `Makefile` contains instructions on how to compile and link the project's source code files. It is read by the tool named `make`. `make` is a build automation tool used primarily for compiling and building software projects. It automates the process of determining which source files need to be recompiled and relinked, based on changes in the source code or dependencies.</div>
 
 ## About directories
-The folders in this repository are the past questions of 6th Semester Electronics exam paper taken by IoE, TU. Each folder includes its own `README.md` file which provides further details about the question and includes the achieved output.
+<div align = 'justify'>
+The folders in this repository are the past questions of 6th Semester Electronics exam paper taken by IoE, TU. Each folder includes its own `README.md` file which provides further details about the question and includes the achieved output.</div>
 
 ## Compatibility
-This lab is done in linux OS- Ubuntu 22.04 and the compiler used is GHDL having version `GHDL 1.0.0 (Ubuntu 1.0.0+dfsg-6) [Dunoon edition] Compiled with GNAT Version: 10.3.1 20211117`. So, make sure the compiler and waveform viewer are device compatible. Now, if you want the most from this repository, I would like you to install virtual machine and install Ubuntu OS. All the code written is in the Ubuntu 22.04 terminal and is followed until the end of the lab. 
+<div align = 'justify'>
+This lab is done in linux OS- Ubuntu 22.04 and the compiler used is GHDL having version `GHDL 1.0.0 (Ubuntu 1.0.0+dfsg-6) [Dunoon edition] Compiled with GNAT Version: 10.3.1 20211117`. So, make sure the compiler and waveform viewer are device compatible. Now, if you want the most from this repository, I would like you to install virtual machine and install Ubuntu OS. All the code written is in the Ubuntu 22.04 terminal and is followed until the end of the lab. </div>
 
 ## Setting Up
 1. Open the terminal (Ctrl + Alt + T)
@@ -35,7 +39,7 @@ $ git clone https://github.com/Hatsuhinode/VHDL.git
 ```
 
 ## Coding in VHDL
-1. You need a text editor and that can be Visual Studio Code or you can write in teh terminal using keywords: `nano`; `vim`
+1. You need a text editor and that can be Visual Studio Code or you can write in teh terminal using keywords: `nano`, `vim`
 - Install VSC (Visual Studio Code) and start writing code for any modification
 ```bash
 $ sudo apt install code
@@ -95,7 +99,8 @@ https://github.com/Hatsuhinode/VHDL/assets/63094975/96497e91-143e-42b5-95c1-514a
 
 
 ## About Us
-We are BEI (Bachelor in Electronics, Communication and Information Engineering) student in Pashchimancal Campus, IoE, TU.  
+<div align = 'justify'>
+We are BEI (Bachelor in Electronics, Communication and Information Engineering) student in Pashchimancal Campus, IoE, TU. </div>
 
 **COLLABORATORS:**
 
