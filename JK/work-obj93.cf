@@ -1,0 +1,7 @@
+v 4
+file . "JK_tb.vhdl" "4f2cbe8cea7c3843c1de02d995cb67fa89d1af2f" "20240210115250.824":
+  entity jk_tb at 1( 0) + 0 on 43;
+  architecture simulation1 of jk_tb at 8( 98) + 0 on 44;
+file . "JK.vhdl" "9dd61bba8bfe202fdc176057e0d007588120dcc0" "20240210115250.766":
+  entity jk at 1( 0) + 0 on 41;
+  architecture behavioralmodel of jk at 10( 165) + 0 on 42;
