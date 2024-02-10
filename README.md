@@ -48,11 +48,11 @@ $ vim newfile.vhd
 If vim isn't install in you device, make sure you install it as: `sudo apt install vim` and code with it in the terminal.
 
 2. Compiling the files
-- Analyze: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -a newfile.vhd`; &nbsp;&nbsp;-a flag represents to analyze the code
-- Elaborate: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -e newwfile`;&nbsp;&nbsp; -e flag represents to elaborate the design, newfile here is the design unit
-- Run: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -r newfile`; &nbsp;&nbsp;-r flag represents to run the simulation 
+- Analyze: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -a newfile.vhd`; &nbsp;&nbsp;-a flag represents to analyze the code
+- Elaborate: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -e newwfile`;&nbsp;&nbsp; -e flag represents to elaborate the design, newfile here is the design unit
+- Run: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ ghdl -r newfile`; &nbsp;&nbsp;-r flag represents to run the simulation 
 - Convert `.vhd` file to `.vcd`: &nbsp; `$ ghdl -r newfile --vcd=newfile.vcd`
-- Visualize: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ gtkwave newfile.vcd`
+- Visualize: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$ gtkwave newfile.vcd`
 
 Instead we created a `Makefile` with the instructions for `ghdl` on how to compile code and test the testbench:
 
@@ -89,10 +89,10 @@ clean:
 ## View the Simulation
 Here is the video for signal visualization of `SequenceDetector1011`
 
-<video controls>
-  <source src="./GTKWave.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/Hatsuhinode/VHDL/assets/63094975/96497e91-143e-42b5-95c1-514a4ae35057
+
+
 
 ## About Us
 We are BEI (Bachelor in Electronics, Communication and Information Engineering) student in Pashchimancal Campus, IoE, TU.  
@@ -103,4 +103,4 @@ Prakanda Bhandari (PAS077BEI030)
 
 Sandesh Bashyal (PAS077BEI036)
 
-<div align = 'center'><b>GOOD LUCK!!!</b></div>
+<div align = 'center'><b>HAPPY SIMULATION!!!</b></div>
