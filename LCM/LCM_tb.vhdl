@@ -9,14 +9,16 @@ architecture Simulation1 of LCM_tb is
 
     signal CLK_tb, RST_tb, START_tb : STD_LOGIC := '0';
     signal Num1_tb, Num2_tb: UNSIGNED(7 downto 0);
+    signal OutputVal_tb : UNSIGNED(15 downto 0);
+    signal done_tb : STD_LOGIC := '0';
     
 
 begin
-    GCD_Instance : entity work.LCM PORT MAP (CLK_tb, RST_tb, START_tb, Num1_tb, Num2_tb);
+    GCD_Instance : entity work.LCM PORT MAP (CLK_tb, RST_tb, START_tb, Num1_tb, Num2_tb, OutputVal_tb, done_tb);
 
     Clock_Process: process
     begin
-        while now < 10 ns loop
+        while now < 100 ns loop
             CLK_tb <= '0';
             wait for 5 ns;
             CLK_tb <= '1';
