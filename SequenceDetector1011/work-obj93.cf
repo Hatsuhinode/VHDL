@@ -1,7 +1,0 @@
-v 4
-file . "SequenceDetector_tb.vhdl" "2813a378f67dee9ea88cf16ac1e40698725c990b" "20240209165402.615":
-  entity sequencedetector_tb at 1( 0) + 0 on 23;
-  architecture simulation1 of sequencedetector_tb at 8( 127) + 0 on 24;
-file . "SequenceDetector.vhdl" "66fc2d08e1ff9e43efe71b845b72ca1f89f7479c" "20240209165402.579":
-  entity sequencedetector at 1( 0) + 0 on 21;
-  architecture behavioralmodel of sequencedetector at 12( 239) + 0 on 22;

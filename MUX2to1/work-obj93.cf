@@ -1,7 +1,0 @@
-v 4
-file . "MUX2to1_tb.vhdl" "4dc603b02bc119cb39d5dc9bd57763f397d8268e" "20240209122403.106":
-  entity mux2to1_tb at 1( 0) + 0 on 13;
-  architecture simulation1 of mux2to1_tb at 8( 108) + 0 on 14;
-file . "MUX2to1.vhdl" "9b734e198a5f912c5d00d52d43c693ae03aabb45" "20240209122403.063":
-  entity mux2to1 at 1( 0) + 0 on 11;
-  architecture behavioralmodel of mux2to1 at 12( 236) + 0 on 12;

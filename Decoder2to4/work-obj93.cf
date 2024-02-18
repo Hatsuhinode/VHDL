@@ -1,7 +1,0 @@
-v 4
-file . "Decoder2to4_tb.vhdl" "81ff615c09a340ca72f27b4a60266878bd9a72dd" "20240209123400.775":
-  entity decoder2to4_tb at 1( 0) + 0 on 15;
-  architecture simulation1 of decoder2to4_tb at 8( 117) + 0 on 16;
-file . "Decoder2to4.vhdl" "86d45ef588693840045276243be8f31a48b7b668" "20240209123400.738":
-  entity decoder2to4 at 1( 0) + 0 on 13;
-  architecture behavioralmodel of decoder2to4 at 11( 230) + 0 on 14;

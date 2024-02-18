@@ -1,9 +1,0 @@
-v 4
-file . "UpCounter_T_FF_tb.vhdl" "2c4659111dec379a426a5a3a62ebaa078bc149c6" "20240210130233.682":
-  entity upcounter_tb at 1( 0) + 0 on 15;
-  architecture simulation1 of upcounter_tb at 8( 112) + 0 on 16;
-file . "UpCounter_T_FF.vhdl" "65948f625d52dac3a39871389018b9fde085b1a5" "20240210130233.644":
-  entity t_ff at 1( 0) + 0 on 11;
-  architecture t_ff_behavioral of t_ff at 12( 188) + 0 on 12;
-  entity upcounter at 28( 529) + 0 on 13;
-  architecture upcounter_behavioral of upcounter at 40( 768) + 0 on 14;
