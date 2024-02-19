@@ -5,5 +5,9 @@
 ## Question
 Write the VHDL code for sequence detector 1011.
 
+## Finite State Diagram
+This is the FSD for sequence detector 1011
+![SeqDec1011](/SequenceDetector1011/SeqDec1011.png)
+
 ## Output
 ![sequencedetector_tb](/SequenceDetector1011/sequencedetector_tb.jpg)
