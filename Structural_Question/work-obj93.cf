@@ -1,11 +1,11 @@
 v 4
-file . "and_or_tb.vhdl" "4e13ac1b954026141f998e93874d41d31270109e" "20240219025430.187":
-  entity and_or_tb at 3( 39) + 0 on 25;
-  architecture behavior of and_or_tb at 9( 119) + 0 on 26;
-file . "and_or.vhdl" "c66fabac7973214a9ae755f0953f0aa03e170bb4" "20240219025430.047":
-  entity or_gate at 2( 11) + 0 on 19;
-  architecture or_structural of or_gate at 12( 158) + 0 on 20;
-  entity and_gate at 21( 303) + 0 on 21;
-  architecture and_structural of and_gate at 31( 452) + 0 on 22;
-  entity question at 40( 607) + 0 on 23;
-  architecture question_structural of question at 50( 762) + 0 on 24;
+file . "and_or_tb.vhdl" "e583793bf3c3b135ff4e55608fdda203af72725b" "20240219030921.517":
+  entity and_or_tb at 3( 39) + 0 on 49;
+  architecture behavior of and_or_tb at 9( 119) + 0 on 50;
+file . "and_or.vhdl" "f49ee4fa0e86b010d16c6344a525f9003b53be18" "20240219030921.456":
+  entity or_gate at 2( 11) + 0 on 43;
+  architecture or_structural of or_gate at 12( 158) + 0 on 44;
+  entity and_gate at 21( 303) + 0 on 45;
+  architecture and_structural of and_gate at 31( 452) + 0 on 46;
+  entity question at 40( 608) + 0 on 47;
+  architecture question_structural of question at 50( 763) + 0 on 48;

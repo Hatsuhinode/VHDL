@@ -32,7 +32,7 @@ architecture AND_STRUCTURAL of AND_GATE is
 begin
     process(X, Y)
     begin
-        W <= X or Y;
+        W <= X AND Y;
     end process;
 end AND_STRUCTURAL;
 
