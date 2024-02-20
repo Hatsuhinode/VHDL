@@ -4,3 +4,8 @@
 
 ## Question
 Write the VHDL code for UpCounter T_FF.
+
+## Block Diagram
+<div align = 'center'>
+<img src = 'UpC_t_ff.png'>
+</div>

@@ -6,8 +6,10 @@
 Write the VHDL code for sequence detector 1011.
 
 ## Finite State Diagram
+<div align = 'center'>
 This is the FSD for sequence detector 1011
-![SeqDec1011](/SequenceDetector1011/SeqDec1011.png)
+<img src = 'SeqDec1011.png'>
+</div>
 
 ## Output
 ![sequencedetector_tb](/SequenceDetector1011/sequencedetector_tb.jpg)

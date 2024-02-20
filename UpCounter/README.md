@@ -4,3 +4,8 @@
 
 ## Question
 Write the VHDL code for UpCounter.
+
+## Block Diagram
+<div align = 'center'>
+<img src = 'questiongate.png'>
+</div>

@@ -5,5 +5,15 @@
 ## Question
 Write the VHDL code for JK flip flop.
 
+## Truth Table
+<div align = 'center'>
+<img src = 'TruthTable.png'>
+</div>
+
+## JK Flip Flop
+<div align = 'center'>
+<img src = 'JKFlipFLop.png'>
+</div>
+
 ## Output
 ![jk_tb](/JK/jk_tb.jpg)
