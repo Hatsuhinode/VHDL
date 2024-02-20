@@ -4,3 +4,8 @@
 
 ## Question
 Write the VHDL code for GCD.
+
+## Flowchart
+<div align = 'center'>
+<img src = 'gcdfc.png'>
+</div>

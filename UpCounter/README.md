@@ -7,5 +7,5 @@ Write the VHDL code for UpCounter.
 
 ## Block Diagram
 <div align = 'center'>
-<img src = 'questiongate.png'>
+<img src = '4bitupcounter.png'>
 </div>
