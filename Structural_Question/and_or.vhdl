@@ -11,10 +11,7 @@ end OR_GATE;
 
 architecture OR_STRUCTURAL of OR_GATE is
 begin
-    process(X, Y)
-    begin
-        W <= X OR Y;
-    end process;
+    W <= X OR Y;
 end OR_STRUCTURAL;
 
 -- AND Gate
@@ -30,10 +27,7 @@ end AND_GATE;
 
 architecture AND_STRUCTURAL of AND_GATE is
 begin
-    process(X, Y)
-    begin
-        W <= X AND Y;
-    end process;
+    W <= X AND Y;
 end AND_STRUCTURAL;
 
 -- Question Entity
